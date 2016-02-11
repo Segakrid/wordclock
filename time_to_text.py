@@ -19,6 +19,7 @@ while True:
     now = datetime.now()
     now_time = now.time()
     previous_words = new_words
+    new_words = words
 
     if 0 <= int(str(now_time)[3:5]) <= 4:
         new_words = new_words.replace("u u r", "U U R", 1)
