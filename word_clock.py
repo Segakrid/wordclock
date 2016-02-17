@@ -16,6 +16,9 @@ line_ten = ["t w a a l f", "b f", "u u r"]
 
 all_lines = [line_one, line_two, line_three, line_four, line_five, line_six, line_seven, line_eight, line_nine, line_ten]
 
+print
+print strftime("%H%M")
+print
 for line in all_lines:
     for i in line:
         print i,
