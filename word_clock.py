@@ -15,8 +15,9 @@ line_ten = ["t w a a l f", "b f", "u u r"]
 
 all_lines = [line_one, line_two, line_three, line_four, line_five, line_six, line_seven, line_eight, line_nine, line_ten]
 
-if int(strftime("%H")) == 8 or int(strftime("%H")) == 20 and int(strftime("%M")) < 20:
-    line_nine[1]
+if int(strftime("%H")) == 4 or int(strftime("%H")) == 16 and int(strftime("%M")) < 20:
+    line_nine[0] = (line_nine[0]).upper()
+
 print
 print strftime("%H")
 print strftime("%M")
