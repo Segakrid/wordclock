@@ -1,6 +1,5 @@
 __author__ = 'Dirk'
 
-from datetime import datetime
 from time import strftime
 
 line_one = ["h e t", "k", "i s", "a", "v i j f"]
@@ -16,8 +15,11 @@ line_ten = ["t w a a l f", "b f", "u u r"]
 
 all_lines = [line_one, line_two, line_three, line_four, line_five, line_six, line_seven, line_eight, line_nine, line_ten]
 
+if int(strftime("%H")) == 8 or int(strftime("%H")) == 20 and int(strftime("%M")) < 20:
+    line_nine[1]
 print
-print strftime("%H%M")
+print strftime("%H")
+print strftime("%M")
 print
 for line in all_lines:
     for i in line:
