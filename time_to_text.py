@@ -36,7 +36,7 @@ while True:
 
     elif 15 <= int(str(now_time)[3:5]) <= 19:
         new_words = new_words.replace("k w a r t", "K W A R T", 1)
-        new_words = new_words.replace("o v e r", "O V E R", 1)
+        new_words = new_words.replace("w o v e r", "w O V E R", 1)
 
     elif 20 <= int(str(now_time)[3:5]) <= 24:
         new_words = new_words.replace("t i e n", "T I E N", 1)
@@ -64,15 +64,15 @@ while True:
 
     elif 45 <= int(str(now_time)[3:5]) <= 49:
         new_words = words.replace("k w a r t", "K W A R T", 1)
-        new_words = new_words.replace("v o o r", "V O O R", 1)
+        new_words = new_words.replace("v o o r t", "V O O R t", 1)
 
     elif 50 <= int(str(now_time)[3:5]) <= 54:
         new_words = new_words.replace("t i e n", "T I E N", 1)
-        new_words = new_words.replace("v o o r", "V O O R", 1)
+        new_words = new_words.replace("v o o r t", "V O O R t", 1)
 
     elif 55 <= int(str(now_time)[3:5]) <= 59:
         new_words = new_words.replace("v i j f", "V I J F", 1)
-        new_words = new_words.replace("v o o r", "V O O R", 1)
+        new_words = new_words.replace("v o o r t", "V O O R t", 1)
 
     if int(str(now_time)[0:2]) == 0 or int(str(now_time)[0:2]) == 12:
         if "H A L F" not in new_words:
